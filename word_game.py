@@ -16,7 +16,7 @@ def start_game():
         print('\nCurrent word: ' + ' '.join(guessedWord))
         guess = input('Guess a letter: ').lower()
 
-        if guess.isalpha() or len(guess) != 1:
+        if not guess.isalpha() or len(guess) != 1:
             print('Invalid input! Please enter a single letter.')
             continue
 
@@ -30,7 +30,7 @@ def start_game():
             for i in range(len(word)):
                 if word[i] == guess:
                     guessedWord[i] = guess
-                print('Great guess!')
+            print('Great guess!')
         else:
             attempts -= 1
             print('Wrong guess! Attempts left: ' + str(attempts))
