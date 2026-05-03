@@ -18,23 +18,32 @@ VS Code: Select the play button at the top of the main.py file
 # Functions
 This fun and family/friend-friendly game has 4 main functions.
 
-1. New Game
+1. New Game:
    This allows the user to start a brand new game, consisting of any modifications they may have made to the list
    <img width="377" height="273" alt="image" src="https://github.com/user-attachments/assets/2cc19adb-fc2a-43b9-9183-261c891e0943" />
 
-3. Add Word
+3. Add Word:
    This function lets you add any word you like to the list. Adding a word that already exists in the word bank is fine; it just increases your odds of getting that word in your game, which may be desirable      when playing with friends. Your word must only contain letters and must be greater than 2 characters.
    <img width="587" height="301" alt="image" src="https://github.com/user-attachments/assets/2a731997-894f-4c1f-b5b6-88548f5b47ea" />
 
-5. Delete Word
+5. Delete Word:
    This function lets you delete any word in the word bank. If you forget what words may be in the word bank, after attempting to delete a word that does not exist, the system will prompt you to enter a valid
    word within the word bank, and it will show you the current list of words.
    <img width="1322" height="329" alt="image" src="https://github.com/user-attachments/assets/97e6ee6f-2be2-4668-8646-226ebcaf8516" />
 
-7. View Word Bank
+7. View Word Bank:
    This function allows you to view the current words within the word bank. The game starts up with an automatic set list of words for you; however, you can change and modify the list however you see fit.
    <img width="733" height="217" alt="image" src="https://github.com/user-attachments/assets/8b9e0aeb-c2e0-475e-8222-d28d2b166e31" />
 
-9. Exit
+9. Exit:
    This function exits you from the menu, ending the program.
    <img width="408" height="255" alt="image" src="https://github.com/user-attachments/assets/befe8ff3-8642-43be-8bd8-882b44f9a5c1" />
+
+# Resources
+This project was started using a tutorial; however, significant changes and edits were made along the way using other learning sources as well:
+
+- https://www.codedex.io/projects/build-a-word-guessing-game-with-python
+- https://www.geeksforgeeks.org/python/input-validation-in-python/
+- https://www.w3schools.com/python/ref_keyword_continue.asp
+- https://realpython.com/if-name-main-python/
+- https://www.makeareadme.com/
